@@ -4,6 +4,7 @@ const execa = require('execa')
 
 const command = {
   command: '$0 <query>',
+  desc: 'Search for a gist on github ',
   builder: {
     user: {
       alias: 'u'
@@ -31,4 +32,3 @@ require('yargs')
   .command(command)
   .help()
   .argv
-
