@@ -1,0 +1,17 @@
+{
+  "name": "search-gist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": "bin/run",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "bitliner",
+  "license": "ISC",
+  "dependencies": {
+    "execa": "^2.0.3",
+    "yargs": "^13.3.0"
+  }
+}
