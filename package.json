@@ -1,17 +1,27 @@
 {
   "name": "search-gist",
   "version": "1.0.0",
-  "description": "",
+  "description": "CLI command to search for gists. Example: search-gist \"nodejs header\" ",
   "main": "index.js",
   "bin": "bin/run",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "cli",
+    "search for gist",
+    "gist",
+    "search",
+    "developer"
+  ],
   "author": "bitliner",
   "license": "ISC",
   "dependencies": {
     "execa": "^2.0.3",
     "yargs": "^13.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wonderflow-bv/search-gist.git"
   }
 }
