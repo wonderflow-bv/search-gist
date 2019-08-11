@@ -1,6 +1,6 @@
 {
   "name": "search-gist",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "CLI command to search for gists. Example: search-gist \"nodejs header\" ",
   "main": "index.js",
   "bin": "bin/run",
